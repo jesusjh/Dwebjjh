@@ -1,0 +1,22 @@
+body{background:#808080;font-size:14px;postion:absolute;margin:0;text-align:center;}
+body #informacion{background:#fff;display:inline-block;postion:relative;width:100%;}
+body #informacion a{color:#000;text-decoration:none}
+body header{background:#fff;display:inline-block;width:100%;}
+body header nav{background:#fff;color:#fff;display:inline-block;float:right;font-size:1.4em;text-align:center;width:50%}
+body header nav ul{list-style:none;margin:0;padding:0 .8em}
+body header nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
+body header nav ul li a{color:#000;font-family:"Lobstert",Arial;font-weight:normal;display:block;text-decoration:none;padding:0 0}
+body header nav ul li a:hover{color:#f7f156;margin:0;padding:0;transition:1s}
+body header #image{width:100%}
+body #contenedor{background:#fff;display:inline-block;width:100%}
+@media screen and (min-width:768px){body{margin:0 auto;max-width:1200px;}
+body #informacion{background:#fff;border:1px solid #000;vertical:align-top;width:95%;}
+body #informacion .contacto{float:left;margin:.3em}
+body #informacion #logo{float:right;vertical:align-top;width:60%;}
+body #informacion #logo h1{float:left;margin-top:-1%}
+body #informacion #logo b{float:right;margin:.3em}
+body header{background:#fff;display:inline-block;margin-top:-1em;vertical:align-top;width:95%;}
+body header nav{display:inline-block;font-size:1.4em;text-align:center;margin-right:.3em;margin-top:2em;width:75%}
+body header #image{display:inline-block;float:left;width:20%}
+body #contenedor{margin-top:-1em;width:95%}
+}
