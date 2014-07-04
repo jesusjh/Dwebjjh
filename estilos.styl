@@ -1,15 +1,13 @@
 body
 	background grey
 	font-size 14px
-	postion absolute
 	margin  0px
 	text-align center
 
 	#informacion
 		background white
 		display inline-block
-		postion relative
-		width 100%
+		width 95%
 
 		a 
 			color black
@@ -18,7 +16,9 @@ body
 	header 
 		background white
 		display inline-block
-		width 100%
+		height auto
+		position relative
+		width 95%
 
 		nav
 			background white
@@ -54,12 +54,20 @@ body
 			transition 1s
 
 		#image 
+			left 0
+			position absolute
 			width 100%
 
 	#contenedor
 		background white
 		display inline-block
-		width 100%
+		top 3em
+		width 95%
+
+		#texto 
+			display inline-block
+			font-size 0.8em
+			width 100%
 
 
 @import"responsive.styl"

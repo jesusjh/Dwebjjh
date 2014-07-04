@@ -1,14 +1,15 @@
-body{background:#808080;font-size:14px;postion:absolute;margin:0;text-align:center;}
-body #informacion{background:#fff;display:inline-block;postion:relative;width:100%;}
+body{background:#808080;font-size:14px;margin:0;text-align:center;}
+body #informacion{background:#fff;display:inline-block;width:95%;}
 body #informacion a{color:#000;text-decoration:none}
-body header{background:#fff;display:inline-block;width:100%;}
+body header{background:#fff;display:inline-block;height:auto;position:relative;width:95%;}
 body header nav{background:#fff;color:#fff;display:inline-block;float:right;font-size:1.4em;text-align:center;width:50%}
 body header nav ul{list-style:none;margin:0;padding:0 .8em}
 body header nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
 body header nav ul li a{color:#000;font-family:"Lobstert",Arial;font-weight:normal;display:block;text-decoration:none;padding:0 0}
 body header nav ul li a:hover{color:#f7f156;margin:0;padding:0;transition:1s}
-body header #image{width:100%}
-body #contenedor{background:#fff;display:inline-block;width:100%}
+body header #image{left:0;position:absolute;width:100%}
+body #contenedor{background:#fff;display:inline-block;top:3em;width:95%;}
+body #contenedor #texto{display:inline-block;font-size:.8em;width:100%}
 @media screen and (min-width:768px){body{margin:0 auto;max-width:1200px;}
 body #informacion{background:#fff;border:1px solid #000;vertical:align-top;width:95%;}
 body #informacion .contacto{float:left;margin:.3em}
